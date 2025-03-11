@@ -3,7 +3,7 @@
 ## Olá! Bem vindo ao meu perfil :)
 Meu nome é Alexandre, tenho 17 anos e minha jornada no mundo da tecnologia começou muito cedo. Aos 7 anos, montei meu primeiro computador e desde então nunca parei de aprender. Ao longo do tempo, passei por diversos desafios e experiências, Trabalhei como ajudante de eletricista em obras com meu tio por 3 anos, o que me ensinou a importância de resolver problemas e me adaptar rapidamente.
 
-Atualmente, sou SysAdmin e Administrador de Sistemas, com experiência no gerenciamento de servidores e infraestrutura. Além disso, estou sempre expandindo meus conhecimentos e, por isso, estou sempre desenvolvendo pequenos pessoais para aprimorar minha lógica de programação, como jogos e automações práticas em casa.
+Atualmente, sou SysAdmin e Administrador de Sistemas, com experiência no gerenciamento de servidores e infraestrutura. Além disso, estou sempre expandindo meus conhecimentos e, por isso, estou sempre desenvolvendo pequenos projetos pessoais para aprimorar minha lógica de programação, como jogos e automações práticas em casa.
 
 Atualmente, meus estudos estão focados em Segurança Ofensiva, Redes e treinamento de IA com a perspectiva de integrar essas áreas com DevOps. Minha paixão é buscar soluções inovadoras e eficientes, sempre com o objetivo de otimizar sistemas e aprender mais a cada dia.
 
