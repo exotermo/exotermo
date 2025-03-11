@@ -1,16 +1,42 @@
-## Hi there 👋
+# 👾 Exotermo 
 
-<!--
-**exotermo/exotermo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Olá! Bem vindo ao meu perfil :)
+Meu nome é Alexandre, tenho 17 anos e minha jornada no mundo da tecnologia começou muito cedo. Aos 7 anos, montei meu primeiro computador e desde então nunca parei de aprender. Ao longo do tempo, passei por diversos desafios e experiências, Trabalhei como ajudante de eletricista em obras com meu tio por 3 anos, o que me ensinou a importância de resolver problemas e me adaptar rapidamente.
 
-Here are some ideas to get you started:
+Atualmente, sou SysAdmin e Administrador de Sistemas, com experiência no gerenciamento de servidores e infraestrutura. Além disso, estou sempre expandindo meus conhecimentos e, por isso, estou sempre desenvolvendo pequenos pessoais para aprimorar minha lógica de programação, como jogos e automações práticas em casa.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Atualmente, meus estudos estão focados em Segurança Ofensiva, Redes e treinamento de IA com a perspectiva de integrar essas áreas com DevOps. Minha paixão é buscar soluções inovadoras e eficientes, sempre com o objetivo de otimizar sistemas e aprender mais a cada dia.
+
+---
+
+### 💻 Sobre Mim
+🔹 **DevOps & SysAdmin** apaixonado por automação e otimização de sistemas.<br>
+🔹 Experiência prática e em consolidação com **Linux**, servidores.<br>
+🔹 Desenvolvimento de scripts e aplicações para facilitar a administração de infraestruturas.<br>
+
+---
+
+### 🚀 Tecnologias & Ferramentas
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+### 📊 Estatísticas do GitHub
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=exotermo&show_icons=true&theme=dark)
+
+![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=exotermo&layout=compact&theme=dark)
+
+---
+
+### 📬 Contato
+📧 E-mail: Alexandretognato@hotmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/alexandretog/  
+🌐 Website/Portfolio: www.exotermo.dev  // atualmente não está funcionando
+
+## Vamos construir algo incrível juntos! 🚀
+💬 Sempre aberto a novas oportunidades e projetos colaborativos.
