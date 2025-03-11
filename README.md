@@ -38,5 +38,4 @@ Atualmente, meus estudos estão focados em Segurança Ofensiva, Redes e treiname
 🔗 LinkedIn: https://www.linkedin.com/in/alexandretog/  
 🌐 Website/Portfolio: www.exotermo.dev  // atualmente não está funcionando
 
-## Vamos construir algo incrível juntos! 🚀
-💬 Sempre aberto a novas oportunidades e projetos colaborativos.
+# Vamos construir algo incrível juntos! 🚀
