@@ -1,7 +1,7 @@
 # 👾 Exotermo 
 
-## Olá! Bem vindo ao meu perfil :)
-Meu nome é Alexandre, tenho 17 anos e minha jornada no mundo da tecnologia começou muito cedo. Aos 7 anos, montei meu primeiro computador e desde então nunca parei de aprender. Ao longo do tempo, passei por diversos desafios e experiências, Trabalhei como ajudante de eletricista em obras com meu tio por 3 anos, o que me ensinou a importância de resolver problemas e me adaptar rapidamente.
+## Bem vindo ao meu perfil 
+Meu nome é Alexandre, tenho 18 anos e minha jornada no mundo da tecnologia começou muito cedo. Aos 7 anos, montei meu primeiro computador e desde então nunca parei de aprender. Ao longo do tempo, passei por diversos desafios e experiências, Trabalhei como ajudante de eletricista em obras com meu tio por 3 anos, o que me ensinou a importância de resolver problemas e me adaptar rapidamente.
 
 Atualmente, sou SysAdmin e Administrador de Sistemas, com experiência no gerenciamento de servidores e infraestrutura. Além disso, estou sempre expandindo meus conhecimentos e, por isso, estou sempre desenvolvendo pequenos projetos pessoais para aprimorar minha lógica de programação, como jogos e automações práticas em casa.
 
@@ -16,7 +16,7 @@ Atualmente, meus estudos estão focados em Segurança Ofensiva, Redes e treiname
 
 ---
 
-### 🚀 Tecnologias & Ferramentas
+### Tecnologias & Ferramentas
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -34,9 +34,9 @@ Atualmente, meus estudos estão focados em Segurança Ofensiva, Redes e treiname
 
 ---
 
-### 📬 Contato
+### Informações de contato
 📧 E-mail: Alexandretognato@hotmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/alexandretog/  
 🌐 Website/Portfolio: www.exotermo.dev  // atualmente não está funcionando
 
-# Vamos construir algo incrível juntos! 🚀
+# "A simplicidade é o último grau de sofisticação"
