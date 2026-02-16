@@ -1,11 +1,10 @@
 # 👾 Exotermo 
 
 ## Bem vindo ao meu perfil 
-Meu nome é Alexandre, tenho 18 anos e minha jornada no mundo da tecnologia começou muito cedo. Aos 7 anos, montei meu primeiro computador e desde então nunca parei de aprender. Ao longo do tempo, passei por diversos desafios e experiências, Trabalhei como ajudante de eletricista em obras com meu tio por 3 anos, o que me ensinou a importância de resolver problemas e me adaptar rapidamente.
+  Meu nome é Alexandre, tenho 18 anos e minha jornada no mundo da tecnologia começou muito cedo. Aos 7 anos, montei meu primeiro computador e desde então nunca parei de aprender. Ao longo do tempo, passei por diversos desafios e experiências, Trabalhei como ajudante de eletricista em obras com meu tio por 3 anos, o que me ensinou a importância de resolver problemas e me adaptar rapidamente.
 
-Atualmente, sou SysAdmin e Administrador de Sistemas, com experiência no gerenciamento de servidores e infraestrutura. Além disso, estou sempre expandindo meus conhecimentos e, por isso, estou sempre desenvolvendo pequenos projetos pessoais para aprimorar minha lógica de programação, como jogos e automações práticas em casa.
-
-Atualmente, meus estudos estão focados em Segurança Ofensiva, Redes e treinamento de IA com a perspectiva de integrar essas áreas com DevOps. Minha paixão é buscar soluções inovadoras e eficientes, sempre com o objetivo de otimizar sistemas e aprender mais a cada dia.
+  Atualmente, sou SysAdmin e Administrador de Sistemas, com experiência no gerenciamento de servidores e infraestrutura. Além disso, estou sempre expandindo meus conhecimentos e, por isso, estou sempre desenvolvendo pequenos projetos pessoais para aprimorar minha lógica de programação, como jogos e automações práticas em casa.
+Meus estudos estão focados em Segurança Ofensiva, Redes e treinamento de IA com a perspectiva de integrar essas áreas com DevOps. Minha paixão é buscar soluções inovadoras e eficientes, sempre com o objetivo de otimizar sistemas e aprender mais a cada dia.
 
 ---
 
@@ -27,10 +26,13 @@ Atualmente, meus estudos estão focados em Segurança Ofensiva, Redes e treiname
 
 ---
 
-### 📊 Estatísticas do GitHub
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=exotermo&show_icons=true&theme=dark)
+# "A simplicidade é o último grau de sofisticação"
 
-![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=exotermo&layout=compact&theme=dark)
+Frase que levo comigo em cada projeto que faço. Entendo que a sofisticação necessária é aquela que atinge a confiabilidade do software em cada etapa do fluxo definido, que seja, entretudo, funcional, agradável e alinhada ao objetivo final, além de escalável e confiável.
+
+Ou seja, simplicidade não é ausência de sofisticação; é complexidade bem resolvida na estrutura.
+
+Essa é a minha filosofia de execução.
 
 ---
 
@@ -38,5 +40,3 @@ Atualmente, meus estudos estão focados em Segurança Ofensiva, Redes e treiname
 📧 E-mail: Alexandretognato@hotmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/alexandretog/  
 🌐 Website/Portfolio: www.exotermo.dev  // atualmente não está funcionando
-
-# "A simplicidade é o último grau de sofisticação"
