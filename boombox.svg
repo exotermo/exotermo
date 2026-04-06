@@ -24,9 +24,6 @@
       <stop offset="0%"  stop-color="#1e1e1e"/>
       <stop offset="100%" stop-color="#0a0a0a"/>
     </linearGradient>
-    <clipPath id="marquee-clip">
-      <rect x="360" y="108" width="180" height="20" rx="2"/>
-    </clipPath>
     <style>
       @keyframes spin {
         from { transform: rotate(0deg); }
@@ -40,14 +37,6 @@
         0%,100% { opacity:1; }
         30%     { opacity:0.4; }
         60%     { opacity:0.9; }
-      }
-      @keyframes blink {
-        0%,49%   { opacity:1; }
-        50%,100% { opacity:0; }
-      }
-      @keyframes scroll {
-        0%   { transform: translateX(0); }
-        100% { transform: translateX(-50%); }
       }
       .reel-l {
         animation: spin 1.8s linear infinite;
@@ -69,12 +58,9 @@
       .vu6 { animation: vupulse 0.4s ease-in-out infinite 0.30s; }
       .vu7 { animation: vupulse 0.4s ease-in-out infinite 0.35s; }
       .vu8 { animation: vupulse 0.4s ease-in-out infinite 0.40s; }
-      .dot-blink { animation: blink 1s step-start infinite; }
-      .marquee-track { animation: scroll 10s linear infinite; }
       @media (prefers-reduced-motion: reduce) {
         .reel-l, .reel-r, .antenna-anim,
-        .vu1,.vu2,.vu3,.vu4,.vu5,.vu6,.vu7,.vu8,
-        .dot-blink, .marquee-track { animation: none; }
+        .vu1,.vu2,.vu3,.vu4,.vu5,.vu6,.vu7,.vu8 { animation: none; }
       }
     </style>
   </defs>
@@ -148,8 +134,8 @@
   <!-- Cassette label -->
   <rect x="258" y="122" width="164" height="52" rx="3" fill="#1a0a00" stroke="#5a3010" stroke-width="0.8"/>
   <text font-family="monospace" font-size="7" font-weight="bold" fill="#c97a30" x="340" y="136" text-anchor="middle" letter-spacing="1.5">RACIONAIS MC'S</text>
-  <text font-family="monospace" font-size="9" font-weight="bold" fill="#f0a040" x="340" y="150" text-anchor="middle" letter-spacing="1">SOBREVIVENDO NO</text>
-  <text font-family="monospace" font-size="9" font-weight="bold" fill="#f0a040" x="340" y="162" text-anchor="middle" letter-spacing="1">INFERNO</text>
+  <text font-family="monospace" font-size="7.5" font-weight="bold" fill="#f0a040" x="340" y="150" text-anchor="middle" letter-spacing="0.5">NADA COMO UM DIA</text>
+  <text font-family="monospace" font-size="7.5" font-weight="bold" fill="#f0a040" x="340" y="163" text-anchor="middle" letter-spacing="0.5">APOS O OUTRO DIA</text>
 
   <!-- Left reel -->
   <g class="reel-l">
@@ -178,27 +164,6 @@
   <!-- Tape guides -->
   <rect x="196" y="194" width="6" height="8" rx="1" fill="#333" stroke="#555" stroke-width="0.5"/>
   <rect x="270" y="194" width="6" height="8" rx="1" fill="#333" stroke="#555" stroke-width="0.5"/>
-
-  <!-- LCD DISPLAY -->
-  <rect x="340" y="108" width="100" height="30" rx="4" fill="#0a1a08" stroke="#2a4a20" stroke-width="0.8"/>
-  <circle class="dot-blink" cx="348" cy="123" r="2.5" fill="#22c55e"/>
-  <g clip-path="url(#marquee-clip)">
-    <g class="marquee-track">
-      <text font-family="monospace" font-size="8" font-weight="bold" fill="#4ade80" x="360" y="127" letter-spacing="0.5">&#9834; EU SOU 157 &#9834; EU SOU 157 &#9834; EU SOU 157 &#9834; </text>
-    </g>
-  </g>
-
-  <!-- VU METER -->
-  <rect x="340" y="145" width="100" height="20" rx="3" fill="#050f04" stroke="#1a3010" stroke-width="0.8"/>
-  <rect class="vu1" x="343" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.9"/>
-  <rect class="vu2" x="355" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.85"/>
-  <rect class="vu3" x="367" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.9"/>
-  <rect class="vu4" x="379" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.8"/>
-  <rect class="vu5" x="391" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.85"/>
-  <rect class="vu6" x="403" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.7"/>
-  <rect class="vu7" x="415" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.6"/>
-  <rect class="vu8" x="427" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.4"/>
-
   <!-- BUTTONS -->
   <rect x="240" y="222" width="28" height="20" rx="4" fill="#222" stroke="#555" stroke-width="0.8"/>
   <text font-family="monospace" font-size="7" fill="#aaa" x="254" y="235" text-anchor="middle">&#9664;&#9664;</text>
