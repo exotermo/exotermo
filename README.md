@@ -1,3 +1,9 @@
+
+<div align="center">
+  <img src="./boombox.svg" width="600" alt="boombox racionais 157"/>
+</div>
+
+
 <div align="center">
 
 # 👾 Alexandre Tognato (Exotermo)
