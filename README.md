@@ -117,18 +117,6 @@ O sistema é utilizado em ambiente operacional real, onde confiabilidade, precis
 
 </div>
 
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=exotermo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="170" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=exotermo&layout=compact&langs_count=7&theme=tokyonight" />
-</div>
-
-<div align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=exotermo&theme=tokyonight" />
-</div>
 
 ---
 
