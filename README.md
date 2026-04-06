@@ -1,4 +1,13 @@
-👾 Exotermo 
+<div align="center">
+
+# 👾 Alexandre Tognato (Exotermo)
+**Backend & Infrastructure Engineer**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandretog/)
+[![Portfolio](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=firefox&logoColor=white)](http://www.exotermo.dev)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Alexandretognato@hotmail.com)
+
+</div>
 
 ## Backend & Infrastructure Engineer
 
@@ -40,17 +49,25 @@ O sistema é utilizado em ambiente operacional real, onde confiabilidade, precis
 
 ---
 
-### Tecnologias & Ferramentas
+<div align="center">
+
+### 🛠️ Tecnologias & Ferramentas
+
+
 
 #### 💻 Linguagens (Stack Principal)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Java17](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
+<br>
+
 #### 📱 Desenvolvimento Android
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=android&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+<br>
 
 #### 🎨 Desenvolvimento Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -59,9 +76,13 @@ O sistema é utilizado em ambiente operacional real, onde confiabilidade, precis
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
+<br>
 
-#### 🗄️ Banco de Dados
+#### 🗄️ Banco de Dados & Scripting
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+<br>
 
 #### 🐳 Infraestrutura & Virtualização
 ![Fedora 42](https://img.shields.io/badge/Fedora%2042-294172?style=for-the-badge&logo=fedora&logoColor=white)
@@ -71,9 +92,13 @@ O sistema é utilizado em ambiente operacional real, onde confiabilidade, precis
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
 
+<br>
+
 #### 📊 Monitoramento
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+
+<br>
 
 #### 🌐 Redes & Segurança
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
@@ -84,21 +109,28 @@ O sistema é utilizado em ambiente operacional real, onde confiabilidade, precis
 ![MikroTik](https://img.shields.io/badge/MikroTik-293239?style=for-the-badge&logo=mikrotik&logoColor=white)
 ![RouterOS](https://img.shields.io/badge/RouterOS-293239?style=for-the-badge&logo=mikrotik&logoColor=white)
 
-#### 🖥️ Scripting
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+
+</div>
+
+---
+
+## 📈 GitHub Stats
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&langs_count=7&theme=tokyonight"/>
+</div>
 
 ---
 # Filosofia de Engenharia
 
-"A simplicidade é o último grau de sofisticação"
-
-Frase que levo comigo em cada projeto que faço. Entendo que a sofisticação necessária é aquela que atinge a confiabilidade do software em cada etapa do fluxo definido, que seja, entretudo, funcional, agradável e alinhada ao objetivo final, além de escalável e confiável.
-Ou seja, simplicidade não é ausência de sofisticação; é complexidade bem resolvida na estrutura.
-Essa é a minha filosofia de execução.
+> "A simplicidade é o último grau de sofisticação"
+>
+> Frase que levo comigo em cada projeto que faço. Entendo que a sofisticação necessária é aquela que atinge a confiabilidade do software em cada etapa do fluxo definido, que seja, entretudo, funcional, agradável e alinhada ao objetivo final, além de escalável e confiável.
+> Ou seja, simplicidade não é ausência de sofisticação; é complexidade bem resolvida na estrutura.
+> Essa é a minha filosofia de execução.
 
 ---
-
-### Informações de contato
-📧 E-mail: Alexandretognato@hotmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/alexandretog/  
-🌐 Website/Portfolio: www.exotermo.dev  // atualmente não está funcionando
+<div align="center">
+  <sub>E se ninguém vai ser do bem, Bom, tentemos ser menos maus </sub>
+</div>
