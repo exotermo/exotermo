@@ -53,7 +53,7 @@ O sistema é utilizado em ambiente operacional real, onde confiabilidade, precis
 
 ---
 
-<div align="center">
+<div align="left">
   <img src="./stack.svg" width="680" alt="stack de tecnologias"/>
 </div>
 
