@@ -1,93 +1,110 @@
-<svg width="100%" viewBox="0 0 680 620" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 1100 460" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style>
-.sec-label { font-family: monospace; font-size: 11px; font-weight: 500; fill: #888780; }
-.badge-text { font-family: monospace; font-size: 11px; font-weight: 500; }
+.sec-label { font-family: monospace; font-size: 11px; font-weight: 500; fill: #888780; text-anchor: middle; }
+.badge-text { font-family: monospace; font-size: 11px; font-weight: 500; text-anchor: middle; }
+.line { stroke: #B4B2A9; stroke-width: 0.5; }
 </style>
 </defs>
 
-<!-- Linguagens -->
-<text class="sec-label" x="40" y="24">Linguagens</text>
-<line x1="40" y1="30" x2="640" y2="30" stroke="#B4B2A9" stroke-width="0.5"/>
-<rect x="40" y="40" width="84" height="28" rx="5" fill="#0095D5"/>
-<text class="badge-text" x="82" y="58" text-anchor="middle" fill="#fff">Kotlin</text>
-<rect x="134" y="40" width="74" height="28" rx="5" fill="#ED8B00"/>
-<text class="badge-text" x="171" y="58" text-anchor="middle" fill="#fff">Java 17</text>
-<rect x="218" y="40" width="80" height="28" rx="5" fill="#3776AB"/>
-<text class="badge-text" x="258" y="58" text-anchor="middle" fill="#fff">Python</text>
+<!-- Coluna 1: Linguagens -->
+<g transform="translate(30, 0)">
+  <text class="sec-label" x="60" y="24">Linguagens</text>
+  <line x1="0" y1="30" x2="120" y2="30" class="line"/>
+  <rect x="0" y="40" width="120" height="28" rx="5" fill="#0095D5"/>
+  <text class="badge-text" x="60" y="58" fill="#fff">Kotlin</text>
+  <rect x="0" y="76" width="120" height="28" rx="5" fill="#ED8B00"/>
+  <text class="badge-text" x="60" y="94" fill="#fff">Java 17</text>
+  <rect x="0" y="112" width="120" height="28" rx="5" fill="#3776AB"/>
+  <text class="badge-text" x="60" y="130" fill="#fff">Python</text>
+</g>
 
-<!-- Android -->
-<text class="sec-label" x="40" y="100">Android</text>
-<line x1="40" y1="106" x2="640" y2="106" stroke="#B4B2A9" stroke-width="0.5"/>
-<rect x="40" y="116" width="84" height="28" rx="5" fill="#3DDC84"/>
-<text class="badge-text" x="82" y="134" text-anchor="middle" fill="#0a3d1f">Android</text>
-<rect x="134" y="116" width="138" height="28" rx="5" fill="#4285F4"/>
-<text class="badge-text" x="203" y="134" text-anchor="middle" fill="#fff">Jetpack Compose</text>
-<rect x="282" y="116" width="84" height="28" rx="5" fill="#FFCA28"/>
-<text class="badge-text" x="324" y="134" text-anchor="middle" fill="#1a0f00">Firebase</text>
+<!-- Coluna 2: Android -->
+<g transform="translate(170, 0)">
+  <text class="sec-label" x="60" y="24">Android</text>
+  <line x1="0" y1="30" x2="120" y2="30" class="line"/>
+  <rect x="0" y="40" width="120" height="28" rx="5" fill="#3DDC84"/>
+  <text class="badge-text" x="60" y="58" fill="#0a3d1f">Android</text>
+  <rect x="0" y="76" width="120" height="28" rx="5" fill="#4285F4"/>
+  <text class="badge-text" x="60" y="94" fill="#fff">Jetpack Compose</text>
+  <rect x="0" y="112" width="120" height="28" rx="5" fill="#FFCA28"/>
+  <text class="badge-text" x="60" y="130" fill="#1a0f00">Firebase</text>
+</g>
 
-<!-- Frontend -->
-<text class="sec-label" x="40" y="176">Frontend</text>
-<line x1="40" y1="182" x2="640" y2="182" stroke="#B4B2A9" stroke-width="0.5"/>
-<rect x="40" y="192" width="72" height="28" rx="5" fill="#E34F26"/>
-<text class="badge-text" x="76" y="210" text-anchor="middle" fill="#fff">HTML5</text>
-<rect x="122" y="192" width="64" height="28" rx="5" fill="#1572B6"/>
-<text class="badge-text" x="154" y="210" text-anchor="middle" fill="#fff">CSS3</text>
-<rect x="196" y="192" width="104" height="28" rx="5" fill="#F7DF1E"/>
-<text class="badge-text" x="248" y="210" text-anchor="middle" fill="#1a1500">JavaScript</text>
-<rect x="310" y="192" width="72" height="28" rx="5" fill="#20232A"/>
-<text class="badge-text" x="346" y="210" text-anchor="middle" fill="#61DAFB">React</text>
-<rect x="392" y="192" width="56" height="28" rx="5" fill="#777BB4"/>
-<text class="badge-text" x="420" y="210" text-anchor="middle" fill="#fff">PHP</text>
+<!-- Coluna 3: Frontend -->
+<g transform="translate(310, 0)">
+  <text class="sec-label" x="60" y="24">Frontend</text>
+  <line x1="0" y1="30" x2="120" y2="30" class="line"/>
+  <rect x="0" y="40" width="120" height="28" rx="5" fill="#E34F26"/>
+  <text class="badge-text" x="60" y="58" fill="#fff">HTML5</text>
+  <rect x="0" y="76" width="120" height="28" rx="5" fill="#1572B6"/>
+  <text class="badge-text" x="60" y="94" fill="#fff">CSS3</text>
+  <rect x="0" y="112" width="120" height="28" rx="5" fill="#F7DF1E"/>
+  <text class="badge-text" x="60" y="130" fill="#1a1500">JavaScript</text>
+  <rect x="0" y="148" width="120" height="28" rx="5" fill="#20232A"/>
+  <text class="badge-text" x="60" y="166" fill="#61DAFB">React</text>
+  <rect x="0" y="184" width="120" height="28" rx="5" fill="#777BB4"/>
+  <text class="badge-text" x="60" y="202" fill="#fff">PHP</text>
+</g>
 
-<!-- Banco de Dados -->
-<text class="sec-label" x="40" y="252">Banco de dados &amp; scripting</text>
-<line x1="40" y1="258" x2="640" y2="258" stroke="#B4B2A9" stroke-width="0.5"/>
-<rect x="40" y="268" width="108" height="28" rx="5" fill="#4169E1"/>
-<text class="badge-text" x="94" y="286" text-anchor="middle" fill="#fff">PostgreSQL</text>
-<rect x="158" y="268" width="108" height="28" rx="5" fill="#1a1a1a"/>
-<text class="badge-text" x="212" y="286" text-anchor="middle" fill="#fff">Shell Script</text>
+<!-- Coluna 4: Banco de dados & scripting -->
+<g transform="translate(450, 0)">
+  <text class="sec-label" x="75" y="18">Banco de dados</text>
+  <text class="sec-label" x="75" y="30">&amp; scripting</text>
+  <line x1="0" y1="36" x2="150" y2="36" class="line"/>
+  <rect x="15" y="46" width="120" height="28" rx="5" fill="#4169E1"/>
+  <text class="badge-text" x="75" y="64" fill="#fff">PostgreSQL</text>
+  <rect x="15" y="82" width="120" height="28" rx="5" fill="#1a1a1a"/>
+  <text class="badge-text" x="75" y="100" fill="#fff">Shell Script</text>
+</g>
 
-<!-- Infraestrutura -->
-<text class="sec-label" x="40" y="328">Infraestrutura &amp; virtualização</text>
-<line x1="40" y1="334" x2="640" y2="334" stroke="#B4B2A9" stroke-width="0.5"/>
-<rect x="40" y="344" width="84" height="28" rx="5" fill="#294172"/>
-<text class="badge-text" x="82" y="362" text-anchor="middle" fill="#fff">Fedora 42</text>
-<rect x="134" y="344" width="84" height="28" rx="5" fill="#A81D33"/>
-<text class="badge-text" x="176" y="362" text-anchor="middle" fill="#fff">Debian 12</text>
-<rect x="228" y="344" width="64" height="28" rx="5" fill="#d4a900"/>
-<text class="badge-text" x="260" y="362" text-anchor="middle" fill="#1a1000">Linux</text>
-<rect x="302" y="344" width="72" height="28" rx="5" fill="#2496ED"/>
-<text class="badge-text" x="338" y="362" text-anchor="middle" fill="#fff">Docker</text>
-<rect x="384" y="344" width="84" height="28" rx="5" fill="#E57000"/>
-<text class="badge-text" x="426" y="362" text-anchor="middle" fill="#fff">Proxmox</text>
-<rect x="478" y="344" width="118" height="28" rx="5" fill="#C51A4A"/>
-<text class="badge-text" x="537" y="362" text-anchor="middle" fill="#fff">Raspberry Pi</text>
+<!-- Coluna 5: Infraestrutura & virtualização -->
+<g transform="translate(620, 0)">
+  <text class="sec-label" x="75" y="18">Infraestrutura</text>
+  <text class="sec-label" x="75" y="30">&amp; virtualização</text>
+  <line x1="0" y1="36" x2="150" y2="36" class="line"/>
+  <rect x="15" y="46" width="120" height="28" rx="5" fill="#294172"/>
+  <text class="badge-text" x="75" y="64" fill="#fff">Fedora 42</text>
+  <rect x="15" y="82" width="120" height="28" rx="5" fill="#A81D33"/>
+  <text class="badge-text" x="75" y="100" fill="#fff">Debian 12</text>
+  <rect x="15" y="118" width="120" height="28" rx="5" fill="#d4a900"/>
+  <text class="badge-text" x="75" y="136" fill="#1a1000">Linux</text>
+  <rect x="15" y="154" width="120" height="28" rx="5" fill="#2496ED"/>
+  <text class="badge-text" x="75" y="172" fill="#fff">Docker</text>
+  <rect x="15" y="190" width="120" height="28" rx="5" fill="#E57000"/>
+  <text class="badge-text" x="75" y="208" fill="#fff">Proxmox</text>
+  <rect x="15" y="226" width="120" height="28" rx="5" fill="#C51A4A"/>
+  <text class="badge-text" x="75" y="244" fill="#fff">Raspberry Pi</text>
+</g>
 
-<!-- Monitoramento -->
-<text class="sec-label" x="40" y="404">Monitoramento</text>
-<line x1="40" y1="410" x2="640" y2="410" stroke="#B4B2A9" stroke-width="0.5"/>
-<rect x="40" y="420" width="82" height="28" rx="5" fill="#F46800"/>
-<text class="badge-text" x="81" y="438" text-anchor="middle" fill="#fff">Grafana</text>
-<rect x="132" y="420" width="104" height="28" rx="5" fill="#E6522C"/>
-<text class="badge-text" x="184" y="438" text-anchor="middle" fill="#fff">Prometheus</text>
+<!-- Coluna 6: Monitoramento -->
+<g transform="translate(790, 0)">
+  <text class="sec-label" x="60" y="24">Monitoramento</text>
+  <line x1="0" y1="30" x2="120" y2="30" class="line"/>
+  <rect x="0" y="40" width="120" height="28" rx="5" fill="#F46800"/>
+  <text class="badge-text" x="60" y="58" fill="#fff">Grafana</text>
+  <rect x="0" y="76" width="120" height="28" rx="5" fill="#E6522C"/>
+  <text class="badge-text" x="60" y="94" fill="#fff">Prometheus</text>
+</g>
 
-<!-- Redes e Segurança -->
-<text class="sec-label" x="40" y="480">Redes &amp; segurança</text>
-<line x1="40" y1="486" x2="640" y2="486" stroke="#B4B2A9" stroke-width="0.5"/>
-<rect x="40" y="496" width="96" height="28" rx="5" fill="#268BEE"/>
-<text class="badge-text" x="88" y="514" text-anchor="middle" fill="#fff">Kali Linux</text>
-<rect x="146" y="496" width="128" height="28" rx="5" fill="#268BEE"/>
-<text class="badge-text" x="210" y="514" text-anchor="middle" fill="#fff">Kali NetHunter</text>
-<rect x="284" y="496" width="96" height="28" rx="5" fill="#FF6633"/>
-<text class="badge-text" x="332" y="514" text-anchor="middle" fill="#fff">Burp Suite</text>
-<rect x="390" y="496" width="96" height="28" rx="5" fill="#1679A7"/>
-<text class="badge-text" x="438" y="514" text-anchor="middle" fill="#fff">Wireshark</text>
-<rect x="40" y="534" width="64" height="28" rx="5" fill="#004170"/>
-<text class="badge-text" x="72" y="552" text-anchor="middle" fill="#fff">Nmap</text>
-<rect x="114" y="534" width="86" height="28" rx="5" fill="#293239"/>
-<text class="badge-text" x="157" y="552" text-anchor="middle" fill="#fff">MikroTik</text>
-<rect x="210" y="534" width="88" height="28" rx="5" fill="#293239"/>
-<text class="badge-text" x="254" y="552" text-anchor="middle" fill="#fff">RouterOS</text>
-
+<!-- Coluna 7: Redes & segurança -->
+<g transform="translate(930, 0)">
+  <text class="sec-label" x="60" y="18">Redes &amp;</text>
+  <text class="sec-label" x="60" y="30">segurança</text>
+  <line x1="0" y1="36" x2="120" y2="36" class="line"/>
+  <rect x="0" y="46" width="120" height="28" rx="5" fill="#268BEE"/>
+  <text class="badge-text" x="60" y="64" fill="#fff">Kali Linux</text>
+  <rect x="0" y="82" width="120" height="28" rx="5" fill="#268BEE"/>
+  <text class="badge-text" x="60" y="100" fill="#fff">Kali NetHunter</text>
+  <rect x="0" y="118" width="120" height="28" rx="5" fill="#FF6633"/>
+  <text class="badge-text" x="60" y="136" fill="#fff">Burp Suite</text>
+  <rect x="0" y="154" width="120" height="28" rx="5" fill="#1679A7"/>
+  <text class="badge-text" x="60" y="172" fill="#fff">Wireshark</text>
+  <rect x="0" y="190" width="120" height="28" rx="5" fill="#004170"/>
+  <text class="badge-text" x="60" y="208" fill="#fff">Nmap</text>
+  <rect x="0" y="226" width="120" height="28" rx="5" fill="#293239"/>
+  <text class="badge-text" x="60" y="244" fill="#fff">MikroTik</text>
+  <rect x="0" y="262" width="120" height="28" rx="5" fill="#293239"/>
+  <text class="badge-text" x="60" y="280" fill="#fff">RouterOS</text>
+</g>
 </svg>
