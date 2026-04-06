@@ -1,0 +1,231 @@
+<svg width="100%" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="spk" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#1a1a1a"/>
+      <stop offset="55%"  stop-color="#2e2e2e"/>
+      <stop offset="80%"  stop-color="#111"/>
+      <stop offset="100%" stop-color="#3a3a3a"/>
+    </radialGradient>
+    <radialGradient id="spkring" cx="50%" cy="50%" r="50%">
+      <stop offset="70%" stop-color="#444" stop-opacity="0"/>
+      <stop offset="90%" stop-color="#666" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#222" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="bodygrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#2d2d2d"/>
+      <stop offset="100%" stop-color="#181818"/>
+    </linearGradient>
+    <linearGradient id="vubar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#22c55e"/>
+      <stop offset="70%"  stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="cassgrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#1e1e1e"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <clipPath id="marquee-clip">
+      <rect x="360" y="108" width="180" height="20" rx="2"/>
+    </clipPath>
+    <style>
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+      }
+      @keyframes antennabob {
+        0%,100% { transform: rotate(-2deg); }
+        50%     { transform: rotate(2deg); }
+      }
+      @keyframes vupulse {
+        0%,100% { opacity:1; }
+        30%     { opacity:0.4; }
+        60%     { opacity:0.9; }
+      }
+      @keyframes blink {
+        0%,49%   { opacity:1; }
+        50%,100% { opacity:0; }
+      }
+      @keyframes scroll {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      .reel-l {
+        animation: spin 1.8s linear infinite;
+        transform-origin: 204px 178px;
+      }
+      .reel-r {
+        animation: spin 1.8s linear infinite;
+        transform-origin: 264px 178px;
+      }
+      .antenna-anim {
+        animation: antennabob 3s ease-in-out infinite;
+        transform-origin: 590px 88px;
+      }
+      .vu1 { animation: vupulse 0.4s ease-in-out infinite 0.00s; }
+      .vu2 { animation: vupulse 0.4s ease-in-out infinite 0.07s; }
+      .vu3 { animation: vupulse 0.4s ease-in-out infinite 0.13s; }
+      .vu4 { animation: vupulse 0.4s ease-in-out infinite 0.18s; }
+      .vu5 { animation: vupulse 0.4s ease-in-out infinite 0.24s; }
+      .vu6 { animation: vupulse 0.4s ease-in-out infinite 0.30s; }
+      .vu7 { animation: vupulse 0.4s ease-in-out infinite 0.35s; }
+      .vu8 { animation: vupulse 0.4s ease-in-out infinite 0.40s; }
+      .dot-blink { animation: blink 1s step-start infinite; }
+      .marquee-track { animation: scroll 10s linear infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .reel-l, .reel-r, .antenna-anim,
+        .vu1,.vu2,.vu3,.vu4,.vu5,.vu6,.vu7,.vu8,
+        .dot-blink, .marquee-track { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- BODY -->
+  <rect x="60" y="88" width="560" height="196" rx="22" fill="url(#bodygrad)" stroke="#555" stroke-width="1.5"/>
+  <rect x="62" y="89" width="556" height="4" rx="4" fill="#444" opacity="0.6"/>
+  <rect x="60" y="268" width="560" height="16" rx="10" fill="#000" opacity="0.4"/>
+
+  <!-- HANDLE -->
+  <rect x="240" y="60" width="200" height="36" rx="18" fill="#1a1a1a" stroke="#555" stroke-width="1.2"/>
+  <rect x="250" y="66" width="180" height="24" rx="12" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- ANTENNA -->
+  <g class="antenna-anim">
+    <rect x="587" y="18" width="6" height="72" rx="3" fill="#555" stroke="#333" stroke-width="0.8"/>
+    <circle cx="590" cy="17" r="4" fill="#333" stroke="#555" stroke-width="1"/>
+  </g>
+
+  <!-- LEFT SPEAKER -->
+  <rect x="72" y="100" width="150" height="172" rx="14" fill="#111" stroke="#444" stroke-width="1"/>
+  <line x1="87"  y1="105" x2="87"  y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="102" y1="105" x2="102" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="117" y1="105" x2="117" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="132" y1="105" x2="132" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="147" y1="105" x2="147" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="162" y1="105" x2="162" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="177" y1="105" x2="177" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="192" y1="105" x2="192" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="207" y1="105" x2="207" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <circle cx="147" cy="186" r="60" fill="#0d0d0d" stroke="#555" stroke-width="2"/>
+  <circle cx="147" cy="186" r="54" fill="url(#spk)"/>
+  <circle cx="147" cy="186" r="54" fill="url(#spkring)"/>
+  <circle cx="147" cy="186" r="40" fill="none" stroke="#3a3a3a" stroke-width="0.8"/>
+  <circle cx="147" cy="186" r="26" fill="none" stroke="#444" stroke-width="0.8"/>
+  <circle cx="147" cy="186" r="14" fill="none" stroke="#3a3a3a" stroke-width="0.8"/>
+  <circle cx="147" cy="186" r="8" fill="#222" stroke="#555" stroke-width="0.8"/>
+  <circle cx="147" cy="186" r="3" fill="#555"/>
+  <circle cx="147" cy="186" r="60" fill="none" stroke="#666" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- RIGHT SPEAKER -->
+  <rect x="458" y="100" width="150" height="172" rx="14" fill="#111" stroke="#444" stroke-width="1"/>
+  <line x1="473" y1="105" x2="473" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="488" y1="105" x2="488" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="503" y1="105" x2="503" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="518" y1="105" x2="518" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="533" y1="105" x2="533" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="548" y1="105" x2="548" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="563" y1="105" x2="563" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="578" y1="105" x2="578" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="593" y1="105" x2="593" y2="268" stroke="#2a2a2a" stroke-width="1.5"/>
+  <circle cx="533" cy="186" r="60" fill="#0d0d0d" stroke="#555" stroke-width="2"/>
+  <circle cx="533" cy="186" r="54" fill="url(#spk)"/>
+  <circle cx="533" cy="186" r="54" fill="url(#spkring)"/>
+  <circle cx="533" cy="186" r="40" fill="none" stroke="#3a3a3a" stroke-width="0.8"/>
+  <circle cx="533" cy="186" r="26" fill="none" stroke="#444" stroke-width="0.8"/>
+  <circle cx="533" cy="186" r="14" fill="none" stroke="#3a3a3a" stroke-width="0.8"/>
+  <circle cx="533" cy="186" r="8" fill="#222" stroke="#555" stroke-width="0.8"/>
+  <circle cx="533" cy="186" r="3" fill="#555"/>
+  <circle cx="533" cy="186" r="60" fill="none" stroke="#666" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- CENTER PANEL -->
+  <rect x="230" y="100" width="220" height="172" rx="10" fill="#141414" stroke="#3a3a3a" stroke-width="1"/>
+
+  <!-- CASSETTE WINDOW -->
+  <rect x="240" y="108" width="200" height="108" rx="8" fill="#0a0a0a" stroke="#444" stroke-width="1"/>
+
+  <!-- Cassette body -->
+  <rect x="248" y="116" width="184" height="92" rx="6" fill="url(#cassgrad)" stroke="#333" stroke-width="0.8"/>
+
+  <!-- Cassette label -->
+  <rect x="258" y="122" width="164" height="52" rx="3" fill="#1a0a00" stroke="#5a3010" stroke-width="0.8"/>
+  <text font-family="monospace" font-size="7" font-weight="bold" fill="#c97a30" x="340" y="136" text-anchor="middle" letter-spacing="1.5">RACIONAIS MC'S</text>
+  <text font-family="monospace" font-size="9" font-weight="bold" fill="#f0a040" x="340" y="150" text-anchor="middle" letter-spacing="1">SOBREVIVENDO NO</text>
+  <text font-family="monospace" font-size="9" font-weight="bold" fill="#f0a040" x="340" y="162" text-anchor="middle" letter-spacing="1">INFERNO</text>
+
+  <!-- Left reel -->
+  <g class="reel-l">
+    <circle cx="204" cy="178" r="18" fill="#111" stroke="#444" stroke-width="1"/>
+    <circle cx="204" cy="178" r="12" fill="#1e1e1e" stroke="#555" stroke-width="0.6"/>
+    <circle cx="204" cy="178" r="4"  fill="#333"/>
+    <line x1="204" y1="166" x2="204" y2="161" stroke="#555" stroke-width="1.5"/>
+    <line x1="213" y1="172" x2="218" y2="169" stroke="#555" stroke-width="1.5"/>
+    <line x1="209" y1="183" x2="214" y2="186" stroke="#555" stroke-width="1.5"/>
+    <line x1="199" y1="184" x2="194" y2="187" stroke="#555" stroke-width="1.5"/>
+    <line x1="195" y1="173" x2="190" y2="170" stroke="#555" stroke-width="1.5"/>
+  </g>
+
+  <!-- Right reel -->
+  <g class="reel-r">
+    <circle cx="264" cy="178" r="18" fill="#111" stroke="#444" stroke-width="1"/>
+    <circle cx="264" cy="178" r="12" fill="#1e1e1e" stroke="#555" stroke-width="0.6"/>
+    <circle cx="264" cy="178" r="4"  fill="#333"/>
+    <line x1="264" y1="166" x2="264" y2="161" stroke="#555" stroke-width="1.5"/>
+    <line x1="273" y1="172" x2="278" y2="169" stroke="#555" stroke-width="1.5"/>
+    <line x1="269" y1="183" x2="274" y2="186" stroke="#555" stroke-width="1.5"/>
+    <line x1="259" y1="184" x2="254" y2="187" stroke="#555" stroke-width="1.5"/>
+    <line x1="255" y1="173" x2="250" y2="170" stroke="#555" stroke-width="1.5"/>
+  </g>
+
+  <!-- Tape guides -->
+  <rect x="196" y="194" width="6" height="8" rx="1" fill="#333" stroke="#555" stroke-width="0.5"/>
+  <rect x="270" y="194" width="6" height="8" rx="1" fill="#333" stroke="#555" stroke-width="0.5"/>
+
+  <!-- LCD DISPLAY -->
+  <rect x="340" y="108" width="100" height="30" rx="4" fill="#0a1a08" stroke="#2a4a20" stroke-width="0.8"/>
+  <circle class="dot-blink" cx="348" cy="123" r="2.5" fill="#22c55e"/>
+  <g clip-path="url(#marquee-clip)">
+    <g class="marquee-track">
+      <text font-family="monospace" font-size="8" font-weight="bold" fill="#4ade80" x="360" y="127" letter-spacing="0.5">&#9834; EU SOU 157 &#9834; EU SOU 157 &#9834; EU SOU 157 &#9834; </text>
+    </g>
+  </g>
+
+  <!-- VU METER -->
+  <rect x="340" y="145" width="100" height="20" rx="3" fill="#050f04" stroke="#1a3010" stroke-width="0.8"/>
+  <rect class="vu1" x="343" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.9"/>
+  <rect class="vu2" x="355" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.85"/>
+  <rect class="vu3" x="367" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.9"/>
+  <rect class="vu4" x="379" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.8"/>
+  <rect class="vu5" x="391" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.85"/>
+  <rect class="vu6" x="403" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.7"/>
+  <rect class="vu7" x="415" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.6"/>
+  <rect class="vu8" x="427" y="148" width="10" height="14" rx="1" fill="url(#vubar)" opacity="0.4"/>
+
+  <!-- BUTTONS -->
+  <rect x="240" y="222" width="28" height="20" rx="4" fill="#222" stroke="#555" stroke-width="0.8"/>
+  <text font-family="monospace" font-size="7" fill="#aaa" x="254" y="235" text-anchor="middle">&#9664;&#9664;</text>
+
+  <rect x="274" y="218" width="36" height="26" rx="5" fill="#c97a30" stroke="#a06020" stroke-width="1"/>
+  <text font-family="monospace" font-size="10" font-weight="bold" fill="#fff" x="292" y="234" text-anchor="middle">&#9654;</text>
+
+  <rect x="316" y="222" width="28" height="20" rx="4" fill="#222" stroke="#555" stroke-width="0.8"/>
+  <text font-family="monospace" font-size="7" fill="#aaa" x="330" y="235" text-anchor="middle">&#9654;&#9654;</text>
+
+  <rect x="350" y="222" width="28" height="20" rx="4" fill="#222" stroke="#555" stroke-width="0.8"/>
+  <text font-family="monospace" font-size="7" fill="#aaa" x="364" y="235" text-anchor="middle">&#9632;</text>
+
+  <!-- EQ knob -->
+  <circle cx="404" cy="231" r="12" fill="#1a1a1a" stroke="#555" stroke-width="1"/>
+  <circle cx="404" cy="231" r="8"  fill="#222"/>
+  <line x1="404" y1="223" x2="404" y2="227" stroke="#f0a040" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- VOL knob -->
+  <circle cx="432" cy="231" r="12" fill="#1a1a1a" stroke="#555" stroke-width="1"/>
+  <circle cx="432" cy="231" r="8"  fill="#222"/>
+  <line x1="432" y1="220" x2="435" y2="224" stroke="#f0a040" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- FEET -->
+  <rect x="100" y="278" width="30" height="10" rx="4" fill="#111" stroke="#333" stroke-width="0.8"/>
+  <rect x="550" y="278" width="30" height="10" rx="4" fill="#111" stroke="#333" stroke-width="0.8"/>
+
+  <!-- TOCANDO TEXT -->
+  <text font-family="monospace" font-size="11" fill="#c97a30" x="340" y="306" text-anchor="middle" letter-spacing="1" opacity="0.8">&#9834; tocando: Racionais MC's &#8212; Eu Sou 157 &#9834;</text>
+</svg>
