@@ -58,6 +58,53 @@
   <text class="badge-text" x="75" y="100" fill="#fff">Shell Script</text>
 </g>
 
+<!-- Coluna 5: Infraestrutura & virtualização -->
+<g transform="translate(620, 0)">
+  <text class="sec-label" x="75" y="18">Infraestrutura</text>
+  <text class="sec-label" x="75" y="30">&amp; virtualização</text>
+  <line x1="0" y1="36" x2="150" y2="36" class="line"/>
+  <rect x="15" y="46" width="120" height="28" rx="5" fill="#294172"/>
+  <text class="badge-text" x="75" y="64" fill="#fff">Fedora 42</text>
+  <rect x="15" y="82" width="120" height="28" rx="5" fill="#A81D33"/>
+  <text class="badge-text" x="75" y="100" fill="#fff">Debian 12</text>
+  <rect x="15" y="118" width="120" height="28" rx="5" fill="#d4a900"/>
+  <text class="badge-text" x="75" y="136" fill="#1a1000">Linux</text>
+  <rect x="15" y="154" width="120" height="28" rx="5" fill="#2496ED"/>
+  <text class="badge-text" x="75" y="172" fill="#fff">Docker</text>
+  <rect x="15" y="190" width="120" height="28" rx="5" fill="#E57000"/>
+  <text class="badge-text" x="75" y="208" fill="#fff">Proxmox</text>
+  <rect x="15" y="226" width="120" height="28" rx="5" fill="#C51A4A"/>
+  <text class="badge-text" x="75" y="244" fill="#fff">Raspberry Pi</text>
+</g>
 
+<!-- Coluna 6: Monitoramento -->
+<g transform="translate(790, 0)">
+  <text class="sec-label" x="60" y="24">Monitoramento</text>
+  <line x1="0" y1="30" x2="120" y2="30" class="line"/>
+  <rect x="0" y="40" width="120" height="28" rx="5" fill="#F46800"/>
+  <text class="badge-text" x="60" y="58" fill="#fff">Grafana</text>
+  <rect x="0" y="76" width="120" height="28" rx="5" fill="#E6522C"/>
+  <text class="badge-text" x="60" y="94" fill="#fff">Prometheus</text>
+</g>
 
+<!-- Coluna 7: Redes & segurança -->
+<g transform="translate(930, 0)">
+  <text class="sec-label" x="60" y="18">Redes &amp;</text>
+  <text class="sec-label" x="60" y="30">segurança</text>
+  <line x1="0" y1="36" x2="120" y2="36" class="line"/>
+  <rect x="0" y="46" width="120" height="28" rx="5" fill="#268BEE"/>
+  <text class="badge-text" x="60" y="64" fill="#fff">Kali Linux</text>
+  <rect x="0" y="82" width="120" height="28" rx="5" fill="#268BEE"/>
+  <text class="badge-text" x="60" y="100" fill="#fff">Kali NetHunter</text>
+  <rect x="0" y="118" width="120" height="28" rx="5" fill="#FF6633"/>
+  <text class="badge-text" x="60" y="136" fill="#fff">Burp Suite</text>
+  <rect x="0" y="154" width="120" height="28" rx="5" fill="#1679A7"/>
+  <text class="badge-text" x="60" y="172" fill="#fff">Wireshark</text>
+  <rect x="0" y="190" width="120" height="28" rx="5" fill="#004170"/>
+  <text class="badge-text" x="60" y="208" fill="#fff">Nmap</text>
+  <rect x="0" y="226" width="120" height="28" rx="5" fill="#293239"/>
+  <text class="badge-text" x="60" y="244" fill="#fff">MikroTik</text>
+  <rect x="0" y="262" width="120" height="28" rx="5" fill="#293239"/>
+  <text class="badge-text" x="60" y="280" fill="#fff">RouterOS</text>
+</g>
 </svg>
