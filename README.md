@@ -9,8 +9,6 @@
 
 </div>
 
-## Backend & Infrastructure Engineer
-
 ## Um pouco de mim 
 
 Meu nome é Alexandre, tenho 18 anos e minha jornada no mundo da tecnologia começou muito cedo. Aos 7 anos, montei meu primeiro computador e desde então nunca parei de aprender. Ao longo do tempo, passei por diversos desafios e experiências, Trabalhei como ajudante de eletricista em obras com meu tio por 3 anos, o que me ensinou a importância de resolver problemas e me adaptar rapidamente.
