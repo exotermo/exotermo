@@ -1,12 +1,6 @@
-
-<div align="center">
-  <img src="./boombox.svg" width="600" alt="boombox racionais 157"/>
-</div>
-
-
-<div align="center">
-
-# 👾 Alexandre Tognato (Exotermo)
+<div align="center">  
+  
+# Alexandre Tognato
 **Backend & Infrastructure Engineer**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexandretog/)
@@ -15,59 +9,60 @@
 
 </div>
 
-## Um pouco de mim 
+---
 
-Meu nome é Alexandre, tenho 18 anos e minha jornada no mundo da tecnologia começou muito cedo. Aos 7 anos, montei meu primeiro computador e desde então nunca parei de aprender. Ao longo do tempo, passei por diversos desafios e experiências, Trabalhei como ajudante de eletricista em obras com meu tio por 3 anos, o que me ensinou a importância de resolver problemas e me adaptar rapidamente.
+## About
 
-Com experiência no gerenciamento de servidores e infraestrutura. Além disso, estou sempre expandindo meus conhecimentos e, por isso, estou sempre desenvolvendo pequenos projetos pessoais para aprimorar minha lógica de programação, como jogos e automações práticas em casa.
-Meus estudos estão focados em Segurança Ofensiva, Redes e treinamento de IA com a perspectiva de integrar essas áreas com DevOps. Minha paixão é buscar soluções inovadoras e eficientes, sempre com o objetivo de otimizar sistemas e aprender mais a cada dia.
+Backend and infrastructure engineer with hands-on production experience building corporate systems from the ground up. Currently developing and maintaining a full traceability platform for controlled military-grade materials (explosives and emulsions) used in hydroelectric plant construction.
+
+Focused on reliability, system integration, and operational precision. Currently deepening expertise in offensive security, networking, and AI with a long-term goal of integrating these areas into a DevOps/SecDevOps track.
 
 ---
 
-## Atuação Profissional
+## Professional Experience
 
-Atualmente atuo como Auxiliar de Desenvolvimento de Sistemas na Pedra Branca Escavações, empresa do setor de escavações para usinas hidrelétricas, com sede em Curitiba – PR.
+**Systems Development Assistant** · Pedra Branca Escavações · Curitiba, PR
 
-Meu trabalho envolve desenvolvimento e manutenção de um sistema corporativo completo para rastreabilidade de materiais sensíveis (PCEs – Produtos Controlados pelo Exército), incluindo emulsões e explosivos utilizados em obras de grande porte.
+> Full traceability system for PCEs (Army-Controlled Products) including emulsions and explosives used in large-scale infrastructure works.
 
-# Backend & Integração
+**Backend & Integration**
+- Corporate API design, development, and maintenance
+- Bidirectional synchronization between central server and Android application
+- Critical business logic: consumption, return, loss tracking, and full audit trail
+- ERP integration with SAP Business One
+- Python automation for internal workflows
+- Linux server monitoring and support
+- Application deployment and versioning
 
-• Desenvolvimento e manutenção de API corporativa  
-• Sincronização bidirecional entre servidor central e aplicação Android  
-• Controle de regras de negócio críticas (consumo, retorno, perda e auditoria)  
-• Integração com ERP (SAP Business One)  
-• Automação de rotinas internas utilizando Python  
-• Deploy e versionamento de aplicações  
-• Monitoramento e suporte a servidores Linux  
+**Android Development (Kotlin)**
+- Corporate app for Zebra industrial scanner hardware
+- Direct integration with the native barcode capture sensor API
+- Real-time barcode processing and validation
+- Complete logistics flow control and validation
+- Automated report generation: PDF, CSV, TXT
+- End-to-end traceability control
 
-# Desenvolvimento Android (Kotlin)
-
-• Aplicativo corporativo para scanner industrial Zebra  
-• Integração direta com API interna do sensor de captura  
-• Processamento em tempo real de leitura de código de barras  
-• Validação de fluxo logístico completo  
-• Geração automatizada de relatórios em PDF, CSV e TXT  
-• Controle de rastreabilidade ponta a ponta  
-
-O sistema é utilizado em ambiente operacional real, onde confiabilidade, precisão e rastreabilidade são requisitos obrigatórios.
+> System runs in live operational environments where reliability and precision are non-negotiable.
 
 ---
+
+## Tech Stack
 
 <div align="left">
-  <img src="./stack.svg" width="680" alt="stack de tecnologias"/>
+  <img src="./stack.svg" width="680" alt="tech stack"/>
 </div>
 
 ---
 
-# Filosofia de Engenharia
+## Engineering Philosophy
 
-> "A simplicidade é o último grau de sofisticação"
->
-> Frase que levo comigo em cada projeto que faço. Entendo que a sofisticação necessária é aquela que atinge a confiabilidade do software em cada etapa do fluxo definido, que seja, entretudo, funcional, agradável e alinhada ao objetivo final, além de escalável e confiável.
-> Ou seja, simplicidade não é ausência de sofisticação; é complexidade bem resolvida na estrutura.
-> Essa é a minha filosofia de execução.
+> *"Simplicity is the ultimate sophistication."*
+
+Sophistication means reliability at every step of a defined flow — functional, well-structured, and aligned to the final objective. Simplicity is not the absence of complexity; it's complexity well-resolved in architecture.
 
 ---
 <div align="center">
-  <sub>E se ninguém vai ser do bem, Bom, tentemos ser menos maus </sub>
+  <img src="./boombox.svg" width="600" alt="boombox racionais 157"/>
 </div>
+
+<div align="center">
