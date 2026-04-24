@@ -7,8 +7,8 @@
 </style>
 </defs>
 
-<!-- Linguagens -->
-<text class="sec-label" x="0" y="16">Linguagens</text>
+<!-- Languages -->
+<text class="sec-label" x="0" y="16">Languages</text>
 <line x1="0" y1="22" x2="480" y2="22" class="line"/>
 <rect x="0" y="30" width="90" height="24" rx="5" fill="#0095D5"/>
 <text class="badge-text" x="45" y="46" fill="#fff">Kotlin</text>
@@ -41,16 +41,16 @@
 <rect x="342" y="162" width="70" height="24" rx="5" fill="#777BB4"/>
 <text class="badge-text" x="377" y="178" fill="#fff">PHP</text>
 
-<!-- Banco de dados & scripting -->
-<text class="sec-label" x="0" y="214">Banco de dados &amp; scripting</text>
+<!-- Database & Scripting -->
+<text class="sec-label" x="0" y="214">Database &amp; Scripting</text>
 <line x1="0" y1="220" x2="480" y2="220" class="line"/>
 <rect x="0" y="228" width="100" height="24" rx="5" fill="#4169E1"/>
 <text class="badge-text" x="50" y="244" fill="#fff">PostgreSQL</text>
 <rect x="108" y="228" width="100" height="24" rx="5" fill="#1a1a1a"/>
 <text class="badge-text" x="158" y="244" fill="#fff">Shell Script</text>
 
-<!-- Infraestrutura & virtualização -->
-<text class="sec-label" x="0" y="280">Infraestrutura &amp; virtualização</text>
+<!-- Infrastructure & Virtualization -->
+<text class="sec-label" x="0" y="280">Infrastructure &amp; Virtualization</text>
 <line x1="0" y1="286" x2="480" y2="286" class="line"/>
 <rect x="0" y="294" width="80" height="24" rx="5" fill="#d4a900"/>
 <text class="badge-text" x="40" y="310" fill="#1a1000">Linux</text>
@@ -65,16 +65,16 @@
 <rect x="0" y="326" width="106" height="24" rx="5" fill="#C51A4A"/>
 <text class="badge-text" x="53" y="342" fill="#fff">Raspberry Pi</text>
 
-<!-- Monitoramento -->
-<text class="sec-label" x="0" y="374">Monitoramento</text>
+<!-- Monitoring -->
+<text class="sec-label" x="0" y="374">Monitoring</text>
 <line x1="0" y1="380" x2="480" y2="380" class="line"/>
 <rect x="0" y="388" width="80" height="24" rx="5" fill="#F46800"/>
 <text class="badge-text" x="40" y="404" fill="#fff">Grafana</text>
 <rect x="88" y="388" width="100" height="24" rx="5" fill="#E6522C"/>
 <text class="badge-text" x="138" y="404" fill="#fff">Prometheus</text>
 
-<!-- Redes & segurança -->
-<text class="sec-label" x="0" y="440">Redes &amp; segurança</text>
+<!-- Networking & Security -->
+<text class="sec-label" x="0" y="440">Networking &amp; Security</text>
 <line x1="0" y1="446" x2="480" y2="446" class="line"/>
 <rect x="0" y="454" width="86" height="24" rx="5" fill="#268BEE"/>
 <text class="badge-text" x="43" y="470" fill="#fff">Kali Linux</text>
